@@ -1,0 +1,53 @@
+ .box_parent{
+    border-radius: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 20px;
+    padding-left: 5px;
+    height: 660px;
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-left: 10%;
+    margin-right: 200px;
+    width : 1100px; 
+  }
+
+  #import-gse_codes{
+    width: 150px;
+  }
+
+ 
+  
+  
+  .control-label{
+    font-size: smaller;
+    font-style: italic;
+  }
+  
+  .checkbox label{
+    font-style: italic;
+    font-size: smaller;
+    font-weight: bold;
+  }
+  
+  .sidebar.shiny-bound-input .btn{
+  width: 200px;
+  margin: 15px;
+  color: #333;
+  }
+  
+  #gene_select {background-color: ghostwhite;
+                          color: black;
+                          margin: 15px;
+                          border-radius: 5px;
+                          padding: 5px;
+                          width: 200px;
+    
+  }
+           
+  #plot_space {min-height: 1000px;
+    
+  }
+
+  
+
+  

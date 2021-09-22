@@ -1,0 +1,98 @@
+[1] "ORGANISM: Drosophila melanogaster Hml-Gal4>;UAS-GFP transgenic line"
+[1] "MICROGRAVITY TYPE: SPACEFLOWN"
+[1] "CELL TYPE: "
+Experiment data
+  Experimenter name: Sharmila,,Bhattacharya 
+  Laboratory:  
+  Contact information: sharmila.bhattacharya@nasa.gov 
+  Title: Drosophila melanogaster gene expression changes after spaceflight. 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE23880 
+  PMIDs: 21264297 
+
+  Abstract: A 194 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      Bldg. 236, Room 213
+   contact_city:     
+      Moffet Field
+   contact_country:     
+      USA
+   contact_email:     
+      sharmila.bhattacharya@nasa.gov
+   contact_institute:     
+      NASA Ames Research Center
+   contact_name:     
+      Sharmila,,Bhattacharya
+   contact_state:     
+      CA
+   contact_zip/postal_code:     
+      94305
+   contributor:     
+      Oana,,Marcu
+Matthew,,Lera
+Max,,Sanchez
+Edina,,Levic
+Laura,,Higgins
+Alena,,S
+hmygelska
+Thomas,,Fahlen
+Helen,,Nichol
+Sharmila,,Bhattacharya
+   geo_accession:     
+      GSE23880
+   last_update_date:     
+      Aug 28 2018
+   overall_design:     
+      Larval microarrays (FL 6 samples) are based on RNA extracted from 6 indepen
+dent sets of 50 mid 3rd instar larvae reared in microgravity and collected 
+on the day of landing after 12 days and 18.5 hours on the space shuttle and
+ the same number of control larvae raised on ground (GL 6 samples). Adults 
+microarrays (F1 3 samples) are based on RNA from 3 sets of 20 adult females
+ each, that emerged during spaceflight and within 4 hours of landing and th
+e same number of adult females from the corresponding ground control contai
+ners (G1 3 samples).
+   platform_id:     
+      GPL1322
+   platform_taxid:     
+      7227
+   pubmed_id:     
+      21264297
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA130611
+   sample_id:     
+      GSM588931 GSM588932 GSM588933 GSM588934 GSM588935 GSM588936 GSM588937 GSM58
+8938 GSM588939 GSM588940 GSM588941 GSM588942 GSM588943 GSM588944 GSM588945 
+GSM588946 GSM588947 GSM588948 
+   sample_taxid:     
+      7227
+   status:     
+      Public on Sep 01 2011
+   submission_date:     
+      Aug 30 2010
+   summary:     
+      Gene expression levels were determined in 3rd instar and adult Drosophila m
+elanogaster reared during spaceflight, to elucidate the genetic and molecul
+ar mechanisms underpinning the effects of microgravity on the immune system
+.  The goal was to validate the Drosophila model for understanding alterati
+ons of innate immune responses in humans due to spaceflight. Five container
+s of flies, with ten female and five male fruit flies in each container, we
+re housed and bred on the space shuttle (average orbit altitude of 330.35 k
+m) for 12 days and 18.5 hours, with a new generation reared in microgravity
+.  RNA was extracted on the day of shuttle landing from whole body animals 
+(3rd instar larvae and adults), hybridized to Drosophila 2.0 Affymetrix gen
+ome arrays, and the expression level of all genes was normalized against th
+e gene expression level from the corresponding developmental stage animals 
+raised on ground.  Spaceflight altered the expression of larval genes invol
+ved in the maturation of plasmatocytes (macrophages) and their phagocytic r
+esponse, as well as the level of constitutive expression of pattern recogni
+tion receptors and opsonins that specifically recognize bacteria, and of ly
+sozymes, antimicrobial peptide pathway and immune stress genes, hallmarks o
+f humoral immunity.
+
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE23nnn/GSE23880/suppl/GSE23880_RAW.
+tar
+   title:     
+      Drosophila melanogaster gene expression changes after spaceflight.
+   type:     
+      Expression profiling by array

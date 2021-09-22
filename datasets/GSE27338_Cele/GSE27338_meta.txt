@@ -1,0 +1,73 @@
+[1] "ORGANISM: Caenorhabditis elegans N2 wild type"
+[1] "MICROGRAVITY TYPE: SPACEFLOWN"
+[1] "CELL TYPE: "
+Experiment data
+  Experimenter name: Akira,,Higashibata 
+  Laboratory:  
+  Contact information: higashibata.akira@jaxa.jp 
+  Title: Microgravity effect on C. elegans N2/VC (CERISE, 8days) 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27338 
+  PMIDs:  
+
+  Abstract: A 30 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      2-1-1,Sengen
+   contact_city:     
+      Tsukuba
+   contact_country:     
+      Japan
+   contact_department:     
+      Department of Space Biology and Microgravity Sciences
+   contact_email:     
+      higashibata.akira@jaxa.jp
+   contact_institute:     
+      Japan Aerospace Exploration Agency
+   contact_laboratory:     
+      ISS Science Project office
+   contact_name:     
+      Akira,,Higashibata
+   contact_phone:     
+      050-3362-3898
+   contact_state:     
+      Ibaraki
+   contact_zip/postal_code:     
+      305-8505
+   contributor:     
+      Toko,,Hashizume
+Akira,,Higashibata
+   geo_accession:     
+      GSE27338
+   last_update_date:     
+      Sep 02 2016
+   overall_design:     
+      The samples of this study were divided three experimental groups:
+1. microgravity for 8days
+2. artificial 1G control for 8days on orbit
+3. ground 
+1G control for 8days
+This study was repeated with three biological and two technical replicates.
+   platform_id:     
+      GPL11346
+   platform_taxid:     
+      6239
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA137297
+   sample_id:     
+      GSM675861 GSM675862 GSM675863 GSM675864 GSM675865 GSM675866 GSM675867 GSM675868 GSM675869 GSM675870 GSM675871 GSM675872 GSM675873 GSM675874 GSM675
+875 GSM675876 GSM675877 GSM675878 
+   sample_taxid:     
+      6239
+   status:     
+      Public on Jun 30 2012
+   submission_date:     
+      Feb 16 2011
+   summary:     
+      Microgravity effect on C. elegans gene expression was analysed by whole genome microarray. The worms were cultivated under microgravity for 8days 
+in the Japanese Module of the International Space Station. 
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE27nnn/GSE27338/suppl/GSE27338_RAW.tar
+   title:     
+      Microgravity effect on C. elegans N2/VC (CERISE, 8days)
+   type:     
+      Expression profiling by array

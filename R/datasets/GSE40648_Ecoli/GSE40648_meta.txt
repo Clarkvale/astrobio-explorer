@@ -1,0 +1,68 @@
+[1] "ORGANISM: Escherichia coli str. K-12 substr. MG1655 K12 MG1655"
+[1] "MICROGRAVITY TYPE: RPM"
+Experiment data
+  Experimenter name: kotakonda,,Arunasri 
+  Laboratory:  
+  Contact information: arunasrianakala@gmail.com 
+  Title: Effect of simulated microgravity on E. coli K12 MG1655 growth and gene expression 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE40648 
+  PMIDs: 23472115 
+
+  Abstract: A 62 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      Habsiguda
+   contact_city:     
+      Hyderabad
+   contact_country:     
+      India
+   contact_email:     
+      arunasrianakala@gmail.com
+   contact_institute:     
+      Centre for Cellular and Molecular biology
+   contact_name:     
+      kotakonda,,Arunasri
+   contact_phone:     
+      +919866459086
+   contact_state:     
+      Andhra Pradesh
+   contact_zip/postal_code:     
+      500007
+   contributor:     
+      S,,Shivaji
+K,,Arunasri
+   geo_accession:     
+      GSE40648
+   last_update_date:     
+      Mar 08 2019
+   overall_design:     
+      In this study, a clinostat that mimics microgravity conditions was used to investigate the effects of microgravity on E. c
+oli grown in LB medium supplemented with glycerol to monitor the effects on growth and global gene expression using Affyme
+trix DNA microarrays.
+   platform_id:     
+      GPL3154
+   platform_taxid:     
+      562
+   pubmed_id:     
+      23472115
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA174469
+   sample_id:     
+      GSM998832 GSM998833 GSM998834 GSM998835 GSM998836 GSM998837 GSM998838 GSM998839 
+   sample_taxid:     
+      511145
+   status:     
+      Public on Sep 06 2012
+   submission_date:     
+      Sep 06 2012
+   summary:     
+      This study demonstrates simulated microgravity effects on E. coli K 12 MG1655 when grown on LB medium supplemented with gl
+ycerol. The results imply that E. coli readily reprograms itself to combat the multiple stresses imposed due to microgravi
+ty. Under these conditions it survives by upregulating oxidative stress protecting genes and simultaneously down regulatin
+g the membrane transporters and synthases to maintain cell homeostasis.
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE40nnn/GSE40648/suppl/GSE40648_RAW.tar
+   title:     
+      Effect of simulated microgravity on E. coli K12 MG1655 growth and gene expression
+   type:     
+      Expression profiling by array

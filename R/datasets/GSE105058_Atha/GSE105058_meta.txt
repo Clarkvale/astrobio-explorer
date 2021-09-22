@@ -1,0 +1,65 @@
+[1] "ORGANISM: Arabidopsis thaliana"
+[1] "MICROGRAVITY TYPE: SPACEFLOWN"
+[1] "CELL TYPE: Shoots of seedlings"
+Experiment data
+  Experimenter name: NASA,,GeneLab 
+  Laboratory:  
+  Contact information: genelab-outreach@lists.nasa.gov 
+  Title: Biological Research in Canisters-16 (BRIC-16): Investigations of the plant cytoskeleton in microgravity with gene profiling and cytochemistry 
+  URL: https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-121/ 
+  PMIDs: 28827451 
+
+  Abstract: A 24 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      Mail Stop N211
+   contact_city:     
+      Mountain View
+   contact_country:     
+      USA
+   contact_email:     
+      genelab-outreach@lists.nasa.gov
+   contact_institute:     
+      NASA Ames Research Center
+   contact_name:     
+      NASA,,GeneLab
+   contact_zip/postal_code:     
+      94035
+   contributor:     
+      John,Z,Kiss
+Christina,,Johnson
+   geo_accession:     
+      GSE105058
+   last_update_date:     
+      Jan 24 2018
+   overall_design:     
+      transcription profiling by array
+Microgravity/Weightlessness
+   platform_id:     
+      GPL198
+   platform_taxid:     
+      3702
+   pubmed_id:     
+      28827451
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA414532
+   sample_id:     
+      GSM2817070 GSM2817071 GSM2817072 GSM2817073 GSM2817074 GSM2817075 
+   sample_taxid:     
+      3702
+   status:     
+      Public on Nov 01 2017
+   submission_date:     
+      Oct 17 2017
+   summary:     
+      These investigations studied the fundamentals of how plants perceive gravity and develop in microgravity. It informs how ge
+ne regulation is altered by spaceflight conditions.
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE105nnn/GSE105058/suppl/GSE105058_RAW.tar
+   title:     
+      Biological Research in Canisters-16 (BRIC-16): Investigations of the plant cytoskeleton in microgravity with gene profiling
+ and cytochemistry
+   type:     
+      Expression profiling by array
+   web_link:     
+      https://genelab-data.ndc.nasa.gov/genelab/accession/GLDS-121/

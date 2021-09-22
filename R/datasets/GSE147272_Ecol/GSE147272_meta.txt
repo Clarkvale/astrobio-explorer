@@ -1,0 +1,68 @@
+[1] "ORGANISM: Escherichia coli Nissle_1917"
+[1] "MICROGRAVITY TYPE: RCCS"
+Experiment data
+  Experimenter name: Sang Woo,,Seo 
+  Laboratory:  
+  Contact information:  
+  Title: Transcriptional profiling of the probiotic E. coli Nissle 1917 strain under simulated microgravity and normal gravity 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE147272 
+  PMIDs: 32290466 
+
+  Abstract: A 23 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      1, Gwanak-ro, Gwanak-gu
+   contact_city:     
+      Seoul
+   contact_country:     
+      South Korea
+   contact_institute:     
+      Seoul National University
+   contact_name:     
+      Sang Woo,,Seo
+   contact_zip/postal_code:     
+      08826
+   contributor:     
+      Jaewoo,,Yim
+Sung,W,Cho
+Beomhee,,Kim
+Sungwoo,,Park
+Yong,H,Han
+Sang,W,Seo
+   geo_accession:     
+      GSE147272
+   last_update_date:     
+      May 21 2020
+   overall_design:     
+      Growth phase: Exponential and stationary growth phase.
+Culture condition: MG and normal gravity (NG) condition, in duplicate, M9 minima
+l media with glucose, 37°C, total 8 samples
+MG condition can be simulated by rotary cell culture system (RCCS) from Synthecon Inc. (Ho
+uston, TX, USA) when it is rotated around the horizontal axis. On the other hand, NG condition can be simulated by RCCS when it is rota
+ted around the vertical axis.
+   platform_id:     
+      GPL21433
+   platform_taxid:     
+      562
+   pubmed_id:     
+      32290466
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA613653
+SRA: https://www.ncbi.nlm.nih.gov/sra?term=SRP253467
+   sample_id:     
+      GSM4423221 GSM4423222 GSM4423223 GSM4423224 GSM4423225 GSM4423226 GSM4423227 GSM4423228 
+   sample_taxid:     
+      562
+   status:     
+      Public on May 21 2020
+   submission_date:     
+      Mar 20 2020
+   summary:     
+      We performed comparative transcriptomic profiling of E. coli Nissle 1917 (EcN) to determine the effect of microgravity (MG) on cell gro
+wth and metabolism.
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE147nnn/GSE147272/suppl/GSE147272_RAW.tar
+   title:     
+      Transcriptional profiling of the probiotic E. coli Nissle 1917 strain under simulated microgravity and normal gravity
+   type:     
+      Expression profiling by high throughput sequencing

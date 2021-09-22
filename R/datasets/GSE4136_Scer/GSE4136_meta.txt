@@ -1,0 +1,99 @@
+[1] "ORGANISM: Saccharomyces cerevisiae BY4743"
+[1] "MICROGRAVITY TYPE: HARV"
+[1] "CELL TYPE: "
+Experiment data
+  Experimenter name: Kate,,McInnerney 
+  Laboratory:  
+  Contact information: kmcinnerney@montana.edu 
+  Title: Yeast Genomic Expression Patterns in Response to Low-Shear Modeled Microgravity 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE4136 
+  PMIDs: 17201921 
+
+  Abstract: A 236 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      109 Lewis Hall
+   contact_city:     
+      Bozeman
+   contact_country:     
+      USA
+   contact_department:     
+      Microbiology
+   contact_email:     
+      kmcinnerney@montana.edu
+   contact_fax:     
+      406-994-4926
+   contact_institute:     
+      Montana State University
+   contact_laboratory:     
+      Functional Genomics Facility
+   contact_name:     
+      Kate,,McInnerney
+   contact_phone:     
+      406-994-5666
+   contact_state:     
+      MT
+   contact_web_link:     
+      http://cores.montana.edu
+   contact_zip/postal_code:     
+      59717
+   contributor:     
+      Kathy,B,Sheehan
+Kate,,McInnerney
+Boloroo,L,Purevdorj-Gage
+Linda,E,Hyman
+   geo_accession:     
+      GSE4136
+   last_update_date:     
+      Feb 21 2017
+   overall_design:     
+      Four conditions are compared with three replicates each:  yeast grown in low-shear modeled microgravity (HARV bioreactor) for 5 and 25 g
+enerations; yeast grown in a horizontal (non-LSMMG) HARV bioreactor for 5 and 25 generations.
+   platform_id:     
+      GPL2529
+   platform_taxid:     
+      4896
+4932
+   pubmed_id:     
+      17201921
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA95019
+   sample_id:     
+      GSM94606 GSM94608 GSM94609 GSM94610 GSM94611 GSM94612 GSM94613 GSM94614 GSM94615 GSM94616 GSM94617 GSM94618 
+   sample_taxid:     
+      4932
+   status:     
+      Public on Mar 01 2006
+   submission_date:     
+      Jan 31 2006
+   summary:     
+      The goal of this study was to assess whether low shear-modeled microgravity (LSMMG) effects yeast 
+genomic expression patterns using the
+ powerful tool of whole genome microarray hybridization. We determined 
+changes in the yeast model organism, Saccharomyces cerevisisae, 
+when grown in LSMMG using the rotating High 
+Aspect Ratio Vessel (HARV). A significant number of genes were up- or down-regulated by at 
+least two fold in cells 
+that were grown for 5 generations or 25 generations in HARVs. We identified genes in cell wall integrity signal
+ing 
+pathways containing MAP kinase cascades that may provide clues to novel physiological responses of eukaryotic 
+cells to the externa
+l stress of a low-shear modeled microgravity environment.  A comparison of the microgravity 
+response to other environmental stress resp
+onse (ESR) genes showed that 26% of the genes that respond 
+significantly to LSMMG are involved in a general environmental stress respon
+se, while 74% of the genes may 
+represent a unique transcriptional response to microgravity.  In addition, we found changes in genes inv
+olved in 
+budding, cell polarity establishment, and cell separation that confirm our hypothesis that exposure to LSMMG 
+causes changes i
+n gene transcription resulting in a phenotypic response. The results of the study provide interesting 
+clues to potential mechanisms inv
+olved in the response to, adaptation to, and survival of eukaryotic cells in a 
+microgravity environment and our findings may have impor
+tant health implications for human spaceflight. 
+Keywords: time course, stress response, budding, microgravity
+   title:     
+      Yeast Genomic Expression Patterns in Response to Low-Shear Modeled Microgravity
+   type:     
+      Expression profiling by array

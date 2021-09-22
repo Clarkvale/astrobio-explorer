@@ -1,0 +1,83 @@
+[1] "ORGANISM: Candida albicans SC5413"
+[1] "MICROGRAVITY TYPE: SPACEFLOWN"
+Experiment data
+  Experimenter name: Sheila,,Nielsen 
+  Laboratory:  
+  Contact information:  
+  Title: Candida albicans response to spaceflight (NASA STS-115) 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50881 
+  PMIDs:  
+
+  Abstract: A 297 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      317 Leon Johnson Hall
+   contact_city:     
+      Bozeman
+   contact_country:     
+      USA
+   contact_department:     
+      Immunology and Infectious Disease
+   contact_institute:     
+      Montana State University
+   contact_name:     
+      Sheila,,Nielsen
+   contact_phone:     
+      (406) 994-1670
+   contact_state:     
+      MT
+   contact_zip/postal_code:     
+      59717
+   contributor:     
+      Sheila,,Nielsen-Preiss
+Aurélie,,Crabbé
+   geo_accession:     
+      GSE50881
+   last_update_date:     
+      Nov 03 2013
+   overall_design:     
+      Cells were grown for 24 hours on the space shuttle or as ground-based controls, preserved in RNALater, and stored at -80C.
+  Four samples of each flight- and ground-based controls were harvested for microarray analysis.
+GAP is Group Activation P
+ack and each GAP contains 8 FPAs.  The numbers represent the # assigned to the particular GAP and the number assigned to t
+he specific FPA (1-8) within the indicated GAP. The same hardware is used for the flight samples and the ground samples.
+   platform_id:     
+      GPL9545
+   platform_taxid:     
+      5476
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA219245
+   sample_id:     
+      GSM1231690 GSM1231691 GSM1231692 GSM1231693 GSM1231694 GSM1231695 GSM1231696 GSM1231697 
+   sample_taxid:     
+      5476
+   status:     
+      Public on Nov 01 2013
+   submission_date:     
+      Sep 16 2013
+   summary:     
+      This study presents the first global transcriptional profiling and phenotypic characterization of the major human opportun
+istic fungal pathogen, Candida albicans, grown in spaceflight conditions. Microarray analysis revealed that C. albicans su
+bjected to short-term spaceflight culture differentially regulated 454 genes compared to synchronous ground controls, whic
+h represented 8.4% of the analyzed ORFs. Spaceflight-cultured C. albicans induced genes involved in cell aggregation (simi
+lar to flocculation), which was validated by microscopic and flow cytometry analysis. We also observed enhanced random bud
+ding of spaceflight-cultured cells as opposed to more normal bipolar budding patterns for ground samples, in accordance wi
+th the gene expression data. Furthermore, genes involved in antifungal agent and stress resistance were differentially reg
+ulated in spaceflight, including induction of ABC transporters and members of the major facilitator family, downregulation
+ of ergosterol-encoding genes, and upregulation of genes involved in oxidative stress resistance. Finally, downregulation 
+of genes involved in the actin cytoskeleton was observed. Interestingly, the transcriptional regulator Cap1 and over 30% o
+f the Cap1 regulon was differentially expressed in spaceflight-cultured C. albicans. A potential role for Cap1 in the spac
+eflight response of C. albicans is suggested, as this regulator is involved in random budding, cell aggregation, actin cyt
+oskeleton, and oxidative stress resistance; all related to observed spaceflight-associated changes of C. albicans. While c
+ulture of C. albicans in microgravity potentiates a global change in gene expression that could induce a virulence-related
+ phenotype, no increased virulence in a murine intraperitoneal (i.p.) infection model was observed. This study represents 
+an important basis for the assessment of the risk that commensal flora could play during spaceflight missions. Furthermore
+, since the low fluid-shear environment of microgravity is relevant to physical forces encountered by pathogens during the
+ infection process, insights gained from this study could identify novel infectious disease mechanisms, with downstream be
+nefits for the general public.
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE50nnn/GSE50881/suppl/GSE50881_RAW.tar
+   title:     
+      Candida albicans response to spaceflight (NASA STS-115)
+   type:     
+      Expression profiling by array

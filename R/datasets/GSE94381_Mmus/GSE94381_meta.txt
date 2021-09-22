@@ -1,0 +1,77 @@
+[1] "ORGANISM: Mus musculus C57/BL6"
+[1] "MICROGRAVITY TYPE: SPACEFLOWN"
+[1] "CELL TYPE: longissimus dorsi muscle"
+Experiment data
+  Experimenter name: Dieter,,Blottner 
+  Laboratory:  
+  Contact information: dieter.blottner@charite.de 
+  Title: Global gene expression analysis highlights microgravity sensitive key genes in longissimus dorsi and tongue of 30 days space-flown mice 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE94381 
+  PMIDs: 28529490 
+
+  Abstract: A 145 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      Phillipstrasse 12
+   contact_city:     
+      Berlin
+   contact_country:     
+      Germany
+   contact_department:     
+      Anatomy
+   contact_email:     
+      dieter.blottner@charite.de
+   contact_institute:     
+      Charité Universitaetsmedizin Berlin
+   contact_laboratory:     
+      Neuromuscular System
+   contact_name:     
+      Dieter,,Blottner
+   contact_phone:     
+      +49-30-450-528-347
+   contact_zip/postal_code:     
+      10115
+   contributor:     
+      Guido,,Gambara
+Michele,,Salanova
+Dieter,,Blottner
+Ute,,Ungethüm
+   geo_accession:     
+      GSE94381
+   last_update_date:     
+      May 04 2018
+   overall_design:     
+      C57BL/N6 mice were randomly divided in 3 groups: Bion Flown (BF), mice flown aboard the Bion M1 biosatellite in microgravity environment for 30 d
+ays; Bion Ground (BG), mice housed in the same habitat of flown animals but exposed to earth gravity; and Flight Control (FC), mice housed in a s
+tandard animal facility.
+   platform_id:     
+      GPL8321
+   platform_taxid:     
+      10090
+   pubmed_id:     
+      28529490
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA369534
+   sample_id:     
+      GSM2474364 GSM2474365 GSM2474366 GSM2474367 GSM2474368 GSM2474369 GSM2474370 GSM2474371 GSM2474372 GSM2474373 GSM2474374 GSM2474375 GSM2474376 GS
+M2474377 GSM2474378 GSM2474379 GSM2474380 GSM2474381 GSM2474382 GSM2474383 GSM2474384 GSM2474385 GSM2474386 
+   sample_taxid:     
+      10090
+   status:     
+      Public on May 23 2017
+   submission_date:     
+      Feb 01 2017
+   summary:     
+      Microgravity as well as chronic muscle disuse are two causes of low back pain originated at least in part from paraspinal muscle deconditioning. 
+At present no study investigated the complexity of the molecular changes in human or mouse paraspinal muscles exposed to microgravity. The aim of
+ this study was to evaluate longissimus dorsi and tongue (as a new potential in-flight negative control) adaptation to microgravity at global gen
+e expression level. C57BL/N6 male mice were flown aboard the BION-M1 biosatellite for 30 days (BF) or housed in a replicate flight habitat on gro
+und (BG). . Global gene expression analysis identified 89 transcripts differentially regulated in longissimus dorsi of BF vs. BG mice (False Disc
+overy Rrate < 0,05 and fold change < -2 and > +2), while only a small number of genes were found differentially regulated in tongue muscle ( BF v
+s. BG = 27 genes).
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE94nnn/GSE94381/suppl/GSE94381_RAW.tar
+   title:     
+      Global gene expression analysis highlights microgravity sensitive key genes in longissimus dorsi and tongue of 30 days space-flown mice
+   type:     
+      Expression profiling by array

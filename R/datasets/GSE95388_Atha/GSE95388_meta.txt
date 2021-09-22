@@ -1,0 +1,111 @@
+[1] "ORGANISM: Arabidopsis thaliana COL-0"
+[1] "MICROGRAVITY TYPE: SPACEFLOWN"
+Experiment data
+  Experimenter name: Robert,J.,Ferl 
+  Laboratory:  
+  Contact information: ferllabuf@gmail.com 
+  Title: HSFA2 functions in the physiological adaptation of undifferentiated plant cells to spaceflight microgravity environment. 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE95388 
+  PMIDs: 30658467 
+
+  Abstract: A 363 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      1301 Fifield Hall PO Box 110690
+   contact_city:     
+      Gainesville
+   contact_country:     
+      USA
+   contact_department:     
+      Horticultural Sciences
+   contact_email:     
+      ferllabuf@gmail.com
+   contact_institute:     
+      University of Florida
+   contact_laboratory:     
+      Ferl's lab
+   contact_name:     
+      Robert,J.,Ferl
+   contact_phone:     
+      352-273-8030
+   contact_state:     
+      Florida
+   contact_zip/postal_code:     
+      32611
+   contributor:     
+      Agata,K,Zupanska
+Robert,J,Ferl
+Collin,E,LeFrois
+Anna-Lisa,,Paul
+   geo_accession:     
+      GSE95388
+   last_update_date:     
+      Feb 15 2019
+   overall_design:     
+      The CEL (Cellular Expression Logic) experiment setup and organization was a modification of a previous Arabidopsis
+ cell culture experiment in BRIC16 (Paul, Zupanska et al. 2012). The CEL BRIC17 experiment was launched on board t
+he Dragon capsule of SpaceX-3 CRS mission to the International Space Station (ISS) on the 1st of March 2013.  The 
+cultured cell lines (both the ground control and the spaceflight samples) were grown within 60mm Petri plates in P
+etri Dish Fixation Units (PDFUs) that were housed within the Biological Research In Canister (BRIC) hardware. Two 
+BRIC containers (A and B) were assigned to CEL within the BRIC17 payload. Each chamber housed 5 PDFUs, each PDFU h
+olding one 60mm Petri plate. In each BRIC container there were 2 plates with wild type (WT) cells and 3 plates wit
+h knock-out cells of two genotypes. The exact same PDFU composition was recapitulated in BRICs on the ground in th
+e ISS Environmental Simulator (ISSES) chamber at Kennedy Space Center (KSC) as Ground Controls. The Ground Control
+s were initiated with a 48 hrs delay so that the precise temperature environment of the ISS could be recreated for
+ the ground controls in the ISSES chamber. Cells were fixed in-flight in RNAlater on the 10th day on orbit, and th
+e ground controls were fixed 48 hours later. RNAlater fixation was initiated by the crew using an activation tool 
+that moves RNAlater from a storage container in the PDFU into the Petri Plate. Twenty four hours after fixation, t
+he entire BRIC was moved to the MELFI (Minus Eighty-degree Laboratory Freezer for ISS) where it resided until cold
+ stowage transport back to Earth within the Dragon capsule.  After returning to Earth the samples were reclaimed a
+t KSC, and then transported to the University of Florida (UF) laboratories. The total RNA was extracted from space
+flight samples and corresponding Ground Control samples and subjected to microarrays.
+   platform_id:     
+      GPL198
+   platform_taxid:     
+      3702
+   pubmed_id:     
+      30658467
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA376871
+   sample_id:     
+      GSM2152569 GSM2152570 GSM2152571 GSM2152572 GSM2152573 GSM2152574 GSM2152575 GSM2152576 GSM2152577 GSM2152578 GSM2
+509682 GSM2509683 GSM2509684 GSM2509685 GSM2509686 GSM2509687 
+   sample_taxid:     
+      3702
+   status:     
+      Public on Dec 01 2018
+   submission_date:     
+      Feb 27 2017
+   summary:     
+      The Heat Shock Factor A2 (HsfA2), as a part of the HSF network, is essential to the plant’s response to almost a
+ny environmental stress and to the cellular homeostatic control mechanisms. Plant cell cultures disabled in HsfA2 
+function were grown aboard the International Space Station (ISS) in order to ascertain whether or not they use the
+ same terrestrially effective systems to adapt to the novel environment of spaceflight. Cultured lines of Arabidop
+sis thaliana derived from wild type (WT) cultivar Col-0 and from a knock-out line deficient in the gene encoding H
+SFA2 (HSFA2 KO) were launched to the ISS on SpaceX-2 as part of the Cellular Expression Logic (CEL) experiment of 
+the BRIC17 spaceflight mission and were fixed in-flight after 10 days on orbit. Microarray gene expression data we
+re analyzed using a two-part comparative approach. First, differentially expressed genes were identified between t
+he environments (spaceflight to ground) within cells of the same genotype, which represented physiological adaptat
+ion to the spaceflight environment. Second, gene expression profiles were identified between the genotypes (HSFA2 
+KO to WT) within the same environment, defining genes uniquely required by the two genotypes in the ground and spa
+ceflight adapted states.
+The physiological state of the cells as a result of disabling a gene has tremendous contr
+ol over the mechanisms induced to adapt to the environment of spaceflight.  The HsfA2 demonstrated a role in the p
+hysiological adaptation to the spaceflight environment since the cells disabled in the HsfA2 gene used substantial
+ly different genes to achieve the spaceflight adapted state than the WT cells. The endoplasmic reticulum (ER) stre
+ss and unfolded protein response (UPR) define the HSFA2 KO cells’ physiological state regardless of the environm
+ent and likely result from the deficiency in the chaperone-mediated protein folding machinery. HsfA2 seems to have
+ a universal stress response role but also specific roles in the physiological adaptation to spaceflight through c
+ell wall remodeling, signal perception and transduction and starch biosynthesis. Implementation of knock-out cells
+ identified a set of genes with a required expression level in order for a cell to achieve a spaceflight-adapted s
+tate. The HSFA2 KO cells helped to unravel the HsfA2-dependent genes of the adaption of wild type cells to the env
+ironment of spaceflight.
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE95nnn/GSE95388/suppl/GSE95388_RAW.tar
+ftp://ftp.ncbi.nlm.nih.gov/geo/seri
+es/GSE95nnn/GSE95388/suppl/GSE95388_statistical_analysis_HSFA2_KO_MAS5_A-L.xlsx
+   title:     
+      HSFA2 functions in the physiological adaptation of undifferentiated plant cells to spaceflight microgravity enviro
+nment.
+   type:     
+      Expression profiling by array

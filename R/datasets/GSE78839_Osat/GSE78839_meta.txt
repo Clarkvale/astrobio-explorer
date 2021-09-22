@@ -1,0 +1,61 @@
+[1] "ORGANISM: Oryza sativa"
+[1] "MICROGRAVITY TYPE: SPACEFLOWN"
+[1] "CELL TYPE: "
+Experiment data
+  Experimenter name: Jin,,Jing 
+  Laboratory:  
+  Contact information: jinjing@sibs.ac.cn 
+  Title: Expression data from rice calli cultured with 2,4-D 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78839 
+  PMIDs:  
+
+  Abstract: A 40 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      No. 300 Fenglin Road
+   contact_city:     
+      Shanghai
+   contact_country:     
+      China
+   contact_email:     
+      jinjing@sibs.ac.cn
+   contact_institute:     
+      Shanghai Insitute of Plant Physiology and Ecology, Shanghai Institutes for Biological Sciences, Chinese Academy of Sciences
+   contact_name:     
+      Jin,,Jing
+   contact_zip/postal_code:     
+      200032
+   contributor:     
+      Jing,,Jin
+Weiming,,Cai
+   geo_accession:     
+      GSE78839
+   last_update_date:     
+      Dec 27 2017
+   overall_design:     
+      Rice calli were selected at different treatment for RNA extraction and hybridization on Affymetrix microarrays. We sought to obtain the diff-genes that caused by t
+he microgravity.
+   platform_id:     
+      GPL2025
+   platform_taxid:     
+      4530
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA314119
+   sample_id:     
+      GSM2078440 GSM2078441 GSM2078442 GSM2078443 GSM2078444 GSM2078445 GSM2078446 GSM2078447 GSM2078448 GSM2078449 
+   sample_taxid:     
+      4530
+   status:     
+      Public on Mar 03 2016
+   submission_date:     
+      Mar 02 2016
+   summary:     
+      Four days old rice calli were selected to grow 324h under spaceflight controls, 1g-flight controls and 1g-ground controls.
+We used microarrays to detail the global
+ programme of gene expression underlying cellularisation and identified distinct classes of up-regulated genes during this process.
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE78nnn/GSE78839/suppl/GSE78839_RAW.tar
+   title:     
+      Expression data from rice calli cultured with 2,4-D
+   type:     
+      Expression profiling by array

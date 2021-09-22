@@ -1,0 +1,68 @@
+[1] "ORGANISM: Caenorhabditis elegans N2 wild type"
+[1] "MICROGRAVITY TYPE: SPACEFLOWN"
+[1] "CELL TYPE: Mix stage"
+Experiment data
+  Experimenter name: Akira,,Higashibata 
+  Laboratory:  
+  Contact information: higashibata.akira@jaxa.jp 
+  Title: Expression Data from International C. elegans Experiment 1st (Agilent) 
+  URL: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71771 
+  PMIDs: 28725720 
+
+  Abstract: A 16 word abstract is available. Use 'abstract' method.
+  notes:
+   contact_address:     
+      2-1-1,Sengen
+   contact_city:     
+      Tsukuba
+   contact_country:     
+      Japan
+   contact_department:     
+      Department of Space Biology and Microgravity Sciences
+   contact_email:     
+      higashibata.akira@jaxa.jp
+   contact_institute:     
+      Japan Aerospace Exploration Agency
+   contact_laboratory:     
+      ISS Science Project office
+   contact_name:     
+      Akira,,Higashibata
+   contact_phone:     
+      050-3362-3898
+   contact_state:     
+      Ibaraki
+   contact_zip/postal_code:     
+      305-8505
+   contributor:     
+      Akira,,Higashibata
+Toko,,Hashizume
+   geo_accession:     
+      GSE71771
+   last_update_date:     
+      Aug 26 2019
+   overall_design:     
+      Mix staged C. elegans N2 was exposed microgravity for 10 days.
+   platform_id:     
+      GPL11346
+   platform_taxid:     
+      6239
+   pubmed_id:     
+      28725720
+   relation:     
+      BioProject: https://www.ncbi.nlm.nih.gov/bioproject/PRJNA292057
+   sample_id:     
+      GSM1845027 GSM1845028 GSM1845029 GSM1845030 GSM1845031 GSM1845032 
+   sample_taxid:     
+      6239
+   status:     
+      Public on Aug 31 2016
+   submission_date:     
+      Aug 06 2015
+   summary:     
+      The effect of microgravity on gene expression in C.elegans was comprehensively analysed by DNA microarray (Agilent).
+   supplementary_file:     
+      ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE71nnn/GSE71771/suppl/GSE71771_RAW.tar
+   title:     
+      Expression Data from International C. elegans Experiment 1st (Agilent)
+   type:     
+      Expression profiling by array
