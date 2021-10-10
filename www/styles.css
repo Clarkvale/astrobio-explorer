@@ -10,6 +10,19 @@
     margin-right: 200px;
     width : 1100px; 
   }
+  
+  .summary_box {
+    border-radius: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 20px;
+    
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-left: 10%;
+    margin-right: 200px;
+    width : 1100px; 
+  }
 
   #import-gse_codes{
     width: 150px;

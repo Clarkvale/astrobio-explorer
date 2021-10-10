@@ -11,8 +11,7 @@ library(shinyjqui)
 library(shinycssloaders)
 library(shinyBS)
 
-#TODO: REPLACE VOLCANLY WITH HOMEBREW PLOT THAT DOESNT SUCK 
-#TODO: OUTPUT SELECTED GENENAMES
+
 
 #'Helper function for formatting mappings between term ids and genes associated 
 #'with them.
@@ -70,6 +69,7 @@ volcano_server <- function(id, gprofiler, dataset,  subset = NULL, label = NULL)
                     
                      ns <- session$ns
                      
+                     #if I ask for a parameter only inside a reactive context it seems like they won't update properly
                      gp <- gprofiler
                      d <- dataset
                      s <- subset
@@ -124,6 +124,7 @@ volcano_server <- function(id, gprofiler, dataset,  subset = NULL, label = NULL)
                     })
 }
 
+#testing shiny app
 ui <- dashboardPage( title = "volcano-test",
                      #wrapping everything in a dashBoard page makes the box work                
                      dashboardHeader(),

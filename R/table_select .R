@@ -25,7 +25,7 @@ size_validate <- function(df, in_p, in_fc){
 }
 
 study_validate <- function(codes, df){
-  if(length(codes) > 4){
+  if(length(codes) > 3){
     return(FALSE)
   }
   else{
@@ -85,30 +85,46 @@ table_select_ui <- function(id, label = NULL){
     fluidPage(
       useShinyjs(),
       useShinyFeedback(),
+      tags$div(class = "box_parent", 
+        fluidRow(
+       
+       
+         column(10,DTOutput(ns("gseTable"))),
+         
+         column(2,textAreaInput(
+           inputId = ns("gse_codes"), placeholder = "The resulting GSE codes will appear here. Each code links to the GEO page where the study was found. 
+                                                                  Remove codes to omit from analysis.", 
+           label = "Selected Studies", rows = 3, resize = "vertical"),
+           tags$h5(tags$b("Links to Source Database")),
+           htmlOutput(ns("links")),
+           
+           checkboxInput(ns("perform"), label = "Perform Gene Enrichment Analysis"),
+           
+           tags$div(class = "options",
+            
+            tags$h5(tags$b("Enrichment Analysis Options")),
+            numericInput(inputId = ns("pval"), value = 0.05, label = "Filter values by P value (less than)", min = 0, max = 1, step = 0.01),
+            numericInput(inputId = ns("logfc"), value = 1, label = "Filter values by log2 fold change (greater than)", min = 0, max = 10, step = 1),
+            checkboxInput(ns("exclude"), label = "Exclude In silico GO Annotations (IEA)")
+           ),
+           actionBttn(inputId = ns("import"), "Import!", style = "fill", color = "primary")
+           )
+         )
+      ),
+     tags$br(),
+     tags$div(class = "summary_box",
+      
+     fluidRow(column(2, offset = 6),
+              htmlOutput(ns("title"))),
      fluidRow(
        
-       tags$div(class = "box_parent", column(10,DTOutput(ns("gseTable"))),
        
-       column(2,textAreaInput(
-         inputId = ns("gse_codes"), placeholder = "The resulting GSE codes will appear here. Each code links to the GEO page where the study was found. 
-                                                                Remove codes to omit from analysis.", 
-         label = "Selected Studies", rows = 3, resize = "vertical"),
-         tags$h5(tags$b("Links to Source Database")),
-         htmlOutput(ns("links")),
+         column(5, tags$h5(tags$b("Experiment Summary:")), 
+                  htmlOutput(ns("summary"))),
          
-         checkboxInput(ns("perform"), label = "Perform Gene Enrichment Analysis"),
-         
-         tags$div(class = "options",
-          
-          tags$h5(tags$b("Enrichment Analysis Options")),
-          numericInput(inputId = ns("pval"), value = 0.05, label = "Filter values by P value (less than)", min = 0, max = 1, step = 0.01),
-          numericInput(inputId = ns("logfc"), value = 1, label = "Filter values by log2 fold change (greater than)", min = 0, max = 10, step = 1),
-          checkboxInput(ns("exclude"), label = "Exclude In silico GO Annotations (IEA)")
-         ),
-         actionBttn(inputId = ns("import"), "Import!", style = "fill", color = "primary")
-         )
+         column(7, tags$h5(tags$b("Differential Gene Expression Contrast Model:")),
+                  uiOutput(ns("metaTable"))))
        )
-      )
     )
   
   
@@ -126,11 +142,24 @@ table_select_server <- function(id){
                                          org = NULL)
                  
                  #connecting to metaDB, sqlite DB which stores study metadata
-                  conn <- dbConnect(RSQLite::SQLite(), dbname = "AstroMeta.db")
-                  gse_table <- as.data.frame(tbl(conn, "STUDIES"))
-                  dbDisconnect(conn)
-                  
-                  output$gseTable = renderDT(gse_table, options = list(lengthChange = FALSE))
+                 conn <- dbConnect(RSQLite::SQLite(), dbname = "AstroMeta.db")
+                 gse_table <- as.data.frame(tbl(conn, "STUDIES"))
+                 dbDisconnect(conn)
+                 
+                 
+
+            
+                 
+                 
+                 output$gseTable = renderDT(gse_table, options = list(lengthChange = FALSE,
+                                                                      rowCallback = JS(sprintf('function(row, data) {
+                                                                                               $(row).mouseenter(function(){
+                                                                                                   var hover_index = $(this)[0]._DT_RowIndex
+                                                                                                   /* console.log(hover_index); */
+                                                                                                   Shiny.onInputChange("%s", hover_index);
+                                                                                              });}', ns("hoverIndexJS"))
+                                                                        ),
+                                                                      pageLength = 15))
                  
                  #adding proxy to edit table on client side
                  proxy <-  dataTableProxy("gseTable")
@@ -148,6 +177,42 @@ table_select_server <- function(id){
                                                                 Remove codes to omit from analysis.", 
                                        value =  paste0(gses, sep = "\n", collapse = ""))
                    
+                   
+                   
+                 })
+                 
+                 
+                 #generating contrast tables on row hover
+                 contrast_table_DB <- list.files(path = "datasets", pattern = "meta.*csv", recursive = T)
+                 meta_info_DB <- list.files(path = "datasets", pattern = "meta.*txt", recursive = T)
+                 observeEvent(input$hoverIndexJS,{
+         
+                   hovered_gse <- gse_table$acc[input$hoverIndexJS + 1] #JS is 0 indexed 
+                   #browser()
+                   query <- sapply(hovered_gse, paste0, "_meta", USE.NAMES = F)
+                   meta_paths <- sapply(query, FUN = function(q){paste0("datasets/", grep(pattern = q, contrast_table_DB, value = T))}, USE.NAMES = F)
+                   
+                   tables <-  tagList(sapply(meta_paths, FUN = function(path){renderTable(read.csv(path))}))
+                   
+                   
+                   #getting study summaries from .txt files
+                   summary_path <- paste0("datasets/", grep(pattern =  paste0(hovered_gse, "_meta"), meta_info_DB, value = T))
+                   meta.txt <-  readr::read_delim((summary_path), delim = "\n", show_col_types = F)
+                   pos <- grep(meta.txt[[1]], pattern = "summary:")
+                   summary_end <- T
+                   summary <- c()
+                   #browser()
+                   while(summary_end){
+                     pos <- pos + 1
+                     if(grepl(meta.txt[[pos,1]], pattern = "supplementary_file:") | grepl(meta.txt[[pos,1]], pattern = "title:")){
+                       summary_end <- F
+                     }else{
+                       summary <- append(summary, meta.txt[[pos,1]])
+                     }
+                   }
+                   output$title <- renderUI(tags$h3(tags$b(paste0(hovered_gse, " Info"))))
+                   output$summary <- renderUI(paste0(summary, collapse = "\n"))
+                   output$metaTable <- renderUI(tables)
                    
                  })
                  
@@ -201,7 +266,7 @@ table_select_server <- function(id){
                      showFeedbackSuccess("gse_codes")
                      
                      #selection the rows based off the textAreaInput
-                     proxy %>% selectRows(written_rows)
+                     #proxy %>% selectRows(written_rows)
                      
                      org_name <- gse_table$org[written_rows]
                      
