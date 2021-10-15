@@ -8,6 +8,6 @@
 
 <p>The most recent version is hosted at <a href="https://igem-concordia.shinyapps.io/astrobio_explorer/"> https://igem-concordia.shinyapps.io/astrobio_explorer/ </a>.</p>
 
-
+<p>Author: Benjamin Clark
 <h3> Citations </h3>
 <p>Raudvere, U., Kolberg, L., Kuzmin, I., Arak, T., Adler, P., Peterson, H., & Vilo, J. (2019). g:Profiler: A web server for functional enrichment analysis and conversions of gene lists (2019 update). Nucleic Acids Research, 47(W1), W191–W198. https://doi.org/10.1093/nar/gkz369<p>
